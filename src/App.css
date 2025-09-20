@@ -65,7 +65,7 @@
 }
 
 .testimonial-card {
-  background: white;
+  background: #ffffff;
   padding: 30px;
   border-radius: 10px;
   border-left: 5px solid #36393F;
@@ -75,11 +75,19 @@
 
 .testimonial-card footer {
   color: #36393F !important;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 .testimonial-card p {
   color: #333;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.testimonials {
+  padding: 80px 0;
+  background-color: #f8f9fa;
 }
 
 .portfolio-grid {
