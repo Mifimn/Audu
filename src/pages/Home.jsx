@@ -26,7 +26,7 @@ export default function Home() {
           <Row className="align-items-center">
             <Col lg={6}>
               <img 
-                src="/attached_assets/IMG-20250920-WA0041_1758387803077.jpg" 
+                src="/professional-headshot.jpg" 
                 alt="Professional headshot" 
                 className="hero-image-full"
               />
