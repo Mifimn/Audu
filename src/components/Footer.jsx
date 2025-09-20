@@ -10,8 +10,8 @@ export default function Footer() {
           <Col md={6}>
             <h5>SHOLAXTEAM</h5>
             <p>Professional Crowdfunding Specialist</p>
-            <p>&copy; 2024 SHOLAXTEAM. All rights reserved.</p>
-            <p><small>Designed by mifimn</small></p>
+            <p>&copy; 2025 SHOLAXTEAM. All rights reserved.</p>
+            <p><small>Designed by ~mifimn</small></p>
           </Col>
           <Col md={6} className="text-md-end">
             <div className="social-links">
