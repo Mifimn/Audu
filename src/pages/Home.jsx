@@ -23,13 +23,15 @@ export default function Home() {
       {/* Hero Section */}
       <section className="hero-section">
         <Container>
-          <Row>
-            <Col lg={12}>
+          <Row className="align-items-center">
+            <Col lg={6}>
               <img 
                 src="/attached_assets/IMG-20250920-WA0041_1758387803077.jpg" 
                 alt="Professional headshot" 
-                className="hero-image"
+                className="hero-image-full"
               />
+            </Col>
+            <Col lg={6}>
               <h1>Funding Your Vision, Fueling Your Cause</h1>
               <p>Professional Crowdfunding Specialist with proven results</p>
               <Button 
