@@ -26,7 +26,7 @@ export default function Home() {
           <Row>
             <Col lg={12}>
               <img 
-                src="/attached_assets/IMG-20250920-WA0041_1758387803077.jpg" 
+                src="/attached_assets/head.jpg" 
                 alt="Professional headshot" 
                 className="hero-image"
               />
