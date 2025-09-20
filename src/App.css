@@ -66,6 +66,15 @@
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
+.testimonial-card footer {
+  color: #667eea !important;
+  font-weight: 500;
+}
+
+.testimonial-card p {
+  color: #333;
+}
+
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
