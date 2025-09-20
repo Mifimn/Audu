@@ -23,23 +23,27 @@ export default function Home() {
       {/* Hero Section */}
       <section className="hero-section">
         <Container>
-          <Row>
-            <Col lg={12}>
+          <Row className="align-items-center">
+            <Col lg={6}>
               <img 
                 src="/attached_assets/head.jpg" 
                 alt="Professional headshot" 
                 className="hero-image"
               />
-              <h1>Funding Your Vision, Fueling Your Cause</h1>
-              <p>Professional Crowdfunding Specialist with proven results</p>
-              <Button 
-                variant="light" 
-                size="lg" 
-                href="https://wa.me/message/QJJUMIYJ3BLEJ1"
-                target="_blank"
-              >
-                Start Your Campaign Today
-              </Button>
+            </Col>
+            <Col lg={6}>
+              <div className="hero-content">
+                <h1>Funding Your Vision, Fueling Your Cause</h1>
+                <p>Professional Crowdfunding Specialist with proven results</p>
+                <Button 
+                  variant="light" 
+                  size="lg" 
+                  href="https://wa.me/message/QJJUMIYJ3BLEJ1"
+                  target="_blank"
+                >
+                  Start Your Campaign Today
+                </Button>
+              </div>
             </Col>
           </Row>
         </Container>
